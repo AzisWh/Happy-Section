@@ -56,7 +56,7 @@ const Hero = () => {
     <div className="w-full h-screen bg-cover bg-center relative p-7 " style={{ backgroundImage: `url(${Background})`, color: "#fff" }} id="hero">
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center" style={styles.shadowElement}>
         <h1 className="md:text-3md text-2sm mb-4">Kepada Bapak/Ibu/Saudara/i,</h1>
-        <h1 className="name md:text-8xl text-6xl whitespace-nowrap font-bold mb-4" style={styles.sacrameto}>
+        <h1 className="name md:text-8xl text-5xl whitespace-nowrap font-bold mb-4" style={styles.sacrameto}>
           Rahma & Ayman
         </h1>
         <p className="text-sm md:text-xl drop-shadow">Akan melangsungkan resepsi pernikahan dalam:</p>

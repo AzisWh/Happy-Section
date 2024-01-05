@@ -12,9 +12,9 @@ const Alamat = () => {
   };
 
   return (
-    <div className="p-8 bg-black text-center ">
+    <div className="p-8 bg-black text-center " id="info">
       <div className="flex flex-col justify-center mt-5">
-        <div className="judul text-7xl " style={styles.sacrameto}>
+        <div className="judul md:text-7xl text-5xl mb-3" style={styles.sacrameto}>
           Informasi Acara
         </div>
         <div className="alamat text-white py-2">

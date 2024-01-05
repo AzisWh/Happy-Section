@@ -12,10 +12,10 @@ const Info = () => {
     },
   };
   return (
-    <div className="grid md:grid-cols-4 gap-4 grid-cols-2 py-5 lg:pb-[50px] md:pb-[70px]" id="info">
+    <div className="grid md:grid-cols-4 gap-4 grid-cols-2 pt-5 pb-8 lg:pb-[50px] md:pb-[70px]">
       <div className="flex flex-col text-right mt-5">
         <div className="absolute lg:left-[15%] md:left-[10%] sm:left-[15%] left-[8%]">
-          <h1 className="text-2xl font-bold" style={styles.sacrameto}>
+          <h1 className="md:text-2xl text-xl font-bold" style={styles.sacrameto}>
             Rahma Iqlima Alqudsy
           </h1>
           <h1 className="text-xs">
@@ -34,7 +34,7 @@ const Info = () => {
       </div>
       <div className="flex flex-col mt-8 md:mt-5 sm:mt-0">
         <div className="absolute lg:right-[15%] md:right-[7%] sm:right-[15%] right-[8%]">
-          <h1 className="text-2xl font-bold" style={styles.sacrameto}>
+          <h1 className="md:text-2xl text-xl font-bold" style={styles.sacrameto}>
             Ayman Amin Al-famart
           </h1>
           <h1 className="text-xs">
